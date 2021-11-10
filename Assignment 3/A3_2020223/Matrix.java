@@ -302,7 +302,7 @@ class TriangularMatrix extends SquareMatrix{
 }
 
 class DiagnolMatrix extends TriangularMatrix{
-    double[] arr=new double[rows];
+    private double[] arr=new double[rows];
 
     DiagnolMatrix(){
         super();
