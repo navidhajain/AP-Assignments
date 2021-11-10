@@ -13,21 +13,21 @@ public class Portal {
     private ArrayList<Matrix> trimatarray=new ArrayList<>();
     private ArrayList<Matrix> allsamematarray=new ArrayList<>();
 
-    double[][] matrixa={{1, 2}, {3, 4}};
-    double[][] matrixb={{5, 6, 7}, {8, 9, 10}};
-    double[][] matrixc= {{2, 4, 3}};
-    double[][] matrixd={{5}};
-    double[][] matrixe={{5, 6}, {7, 8}};
-    double[][] matrixf={{1}, {5}};
-    double[][] matrixg={{7}};
+    private double[][] matrixa={{1, 2}, {3, 4}};
+    private double[][] matrixb={{5, 6, 7}, {8, 9, 10}};
+    private double[][] matrixc= {{2, 4, 3}};
+    private double[][] matrixd={{5}};
+    private double[][] matrixe={{5, 6}, {7, 8}};
+    private double[][] matrixf={{1}, {5}};
+    private double[][] matrixg={{7}};
 
-    Matrix mata=identify(matrixa);
-    Matrix matb=identify(matrixb);
-    Matrix matc=identify(matrixc);
-    Matrix matd=identify(matrixd);
-    Matrix mate=identify(matrixe);
-    Matrix matf=identify(matrixf);
-    Matrix matg=identify(matrixg);
+    private Matrix mata=identify(matrixa);
+    private Matrix matb=identify(matrixb);
+    private Matrix matc=identify(matrixc);
+    private Matrix matd=identify(matrixd);
+    private Matrix mate=identify(matrixe);
+    private Matrix matf=identify(matrixf);
+    private Matrix matg=identify(matrixg);
 
     ArrayList<Matrix> getmatrixarray(){
         return matrixarray;
